@@ -189,5 +189,16 @@ h2 {
   color:white;
 }
 
+/* ImagePage */
 
-
+#imgdiv{
+  text-align: center;
+  margin:70px 0px 10px;
+}
+#imgcarousel{
+  padding: 10px;
+}
+#imgsvg{
+  margin:auto;
+  cursor: pointer;
+}

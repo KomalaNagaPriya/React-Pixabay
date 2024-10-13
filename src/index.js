@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './App.css';
-import App from './App';
-import Login from './Pages/Login';
-import Join from './Pages/Join';
+import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './Components/App';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Login/> */}
-    {/* <Join/> */}
-    <App />
+   <App />
   </React.StrictMode>
 );
 
